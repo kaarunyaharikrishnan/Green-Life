@@ -1,0 +1,32 @@
+.seeds-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.seed-varieties {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.seed-card {
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.seed-image {
+    width: 100%;
+    height: auto;
+}
+
+.seed-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.seed-description {
+    width: 30%;
+}

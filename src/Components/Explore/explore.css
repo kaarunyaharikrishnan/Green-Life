@@ -1,0 +1,93 @@
+/* explore.css */
+
+.plant-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    overflow-y: scroll;
+  }
+  
+  .top-banner {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .banner-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .content {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .plant-care {
+    margin-top: 20px;
+  }
+  
+  .plant-care h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .plant-care-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjusted minmax size */
+    gap: 20px;
+  }
+  
+  .plant-care-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .plant-care-img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  .plant-care-card h4 {
+    font-size: 16px; /* Slightly reduced font size */
+    margin-bottom: 5px;
+  }
+  
+  .plant-care-card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .plant-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .plant-rating {
+    display: flex;
+    align-items: center;
+    font-size: 14px; /* Reduced font size */
+  }
+  
+  .plant-price {
+    font-size: 16px; /* Reduced font size */
+    font-weight: bold;
+    color: #009688;
+  }
+  
